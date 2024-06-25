@@ -8,7 +8,7 @@ export const getAllTasks = () =>  taskApi.get('/') ;
 
 export const getTask = (id) => taskApi.get(`/${id}/`)
 
-export const createTask = (id) => taskApi.post(`(/${id})`);
+export const createTask = (task) => taskApi.post("/", task);
 
 export const deleteTask = (id) => taskApi.delete(`/${id}`)
 
