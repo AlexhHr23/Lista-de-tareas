@@ -5,7 +5,5 @@ export function TaskCard({task}) {
         <p>{task.description}</p>
         <hr />
     </div>
-  )
+  );
 }
-
-export default TaskCard
